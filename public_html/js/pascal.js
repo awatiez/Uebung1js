@@ -22,6 +22,17 @@ var computePascalTriangel = function(numOfLine){
 };
 
 
+///////////////////////////////////////////
 
+var formatLi = function(formater){
+	var li = document.getElementsByTagName("li");
+	for (let i = 0; i < li.length; ++i){
+		formater(li[i]);
+	}
+};
 
+var simpleFormater = function(ele){
+	console.log(ele);
+	
+};
 
